@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background: url("bg.jpeg");
+    background-image: url("bg.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Play', sans-serif;
