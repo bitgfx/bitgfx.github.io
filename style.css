@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    background: url("bg.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Play', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#container {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 20em;
+    max-width: 1200px;
+}
+
+#content {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2em;
+    border-radius: 3px;
+}
+
+#links {
+    margin-top: 2em;
+}
+
+#links img {
+    height: 2em;
+    padding-right: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+@media screen and (max-width: 1280px) {
+    #content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #container {
+        width: 100%;
+    }
+
+    #content {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
